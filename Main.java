@@ -23,6 +23,8 @@ class Main {
         name = reader.readLine();
         age = Integer.parseInt(reader.readLine());
         color = reader.readLine();
+        Person aPerson = new Person(name, age, color);
+        people.add(aPerson);
       }
 
       reader.close();
